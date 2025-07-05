@@ -2,6 +2,7 @@
   "name": "graceway-consulting",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://taehyun2017330.github.io/Graceway",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
@@ -47,4 +48,4 @@
       "last 1 safari version"
     ]
   }
-} 
+}
