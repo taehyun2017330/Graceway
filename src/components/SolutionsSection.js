@@ -64,7 +64,7 @@ const SolutionsSection = () => {
     <section id="services" className="solutions-section" style={sectionStyle}>
       <div className="solutions-background">
         <img 
-          src="background2.jpg" 
+          src="/Graceway/background2.jpg" 
           alt="Retail Solutions" 
           className="solutions-image" 
         />

@@ -1,8 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const ProjectsSection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const projects = t('projects.projects', { returnObjects: true });
 
   return (
@@ -42,7 +44,7 @@ const ProjectsSection = () => {
         <div className="projects-cta">
           <p>{t('projects.ctaText')}</p>
           <button 
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => navigate('/contact')}
             className="cta-button"
           >
             {t('projects.ctaButton')}

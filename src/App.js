@@ -11,6 +11,7 @@ import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 // import useScrollToTop from './hooks/useScrollToTop';
 import ScrollToTop from './components/ScrollToTop';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <Router basename={process.env.NODE_ENV === 'production' ? '/Graceway' : '/'}>
+      <GoogleAnalytics />
       <ScrollToTop />
       <div className="App">
         <MobileOverlay isOpen={isMobileMenuOpen} onClose={closeMobileMenu} />

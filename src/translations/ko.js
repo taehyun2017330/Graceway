@@ -10,7 +10,7 @@ export default {
     // Hero Section
     hero: {
       title: '패션 브랜드 & 리테일 성장 파트너',
-      subtitle: '아시아 전역에서 브랜드가 성공할 수 있도록 돕습니다 – 신뢰할 수 있는 전문성.'
+      subtitle: '신뢰할 수 있는 전문성을 바탕으로 아시아 시장에서 브랜드의 성공을 지원합니다.'
     },
   
     // Challenge Section
