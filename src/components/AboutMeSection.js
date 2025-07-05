@@ -1,8 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const AboutMeSection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleRecentExperienceClick = () => {
+    navigate('/projects');
+  };
 
   return (
     <section id="about-me" className="about-me-section">
@@ -26,8 +32,14 @@ const AboutMeSection = () => {
               <div className="experience-highlights">
                 <h4>{t('aboutMe.experienceTitle')}</h4>
                 {t('aboutMe.experience', { returnObjects: true }).map((exp, index) => (
-                  <div key={index} className="experience-item">
+                  <div 
+                    key={index} 
+                    className={`experience-item ${index === 0 ? 'recent-experience' : ''}`}
+                    onClick={index === 0 ? handleRecentExperienceClick : undefined}
+                    style={index === 0 ? { cursor: 'pointer' } : {}}
+                  >
                     <strong>{exp.title}</strong> - {exp.company} ({exp.period})
+                    {index === 0 && <span className="click-hint"> {t('aboutMe.viewProjects')}</span>}
                   </div>
                 ))}
               </div>

@@ -860,6 +860,38 @@ a:focus {
   font-weight: 600;
 }
 
+/* Recent experience highlighting */
+.recent-experience {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  border-left: 4px solid #667eea;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.recent-experience:hover {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.15);
+}
+
+
+
+.click-hint {
+  color: #667eea;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 10px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.recent-experience:hover .click-hint {
+  opacity: 1;
+}
+
 .philosophy p {
   color: #666;
   line-height: 1.7;
@@ -954,6 +986,18 @@ a:focus {
   
   .about-intro h3 {
     font-size: 1.7rem;
+  }
+  
+  .recent-experience {
+    padding: 12px 15px;
+    margin: 8px 0;
+  }
+  
+
+  
+  .click-hint {
+    font-size: 0.8rem;
+    margin-left: 8px;
   }
 }
 /* Projects Section */

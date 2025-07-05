@@ -85,28 +85,34 @@ export default {
       '高管领导力'
     ],
     experienceTitle: '主要经验',
-    experience: [
-      {
-        title: '经营负责人',
-        company: '(株)衣恋零售',
-        period: '2023-2024'
-      },
-      {
-        title: 'COO',
-        company: '百盛集团',
-        period: '2021-2022'
-      },
-      {
-        title: 'CEO',
-        company: '好孩子集团',
-        period: '2018-2020'
-      },
-      {
-        title: '事业本部장',
-        company: '衣恋 ELAND',
-        period: '1993-2017'
-      }
-    ],
+    viewProjects: '→ 查看项目',
+experience: [
+  {
+    title: '高级顾问',
+    company: '硅谷企业及多项全球项目',
+    period: '2024-至今'
+  },
+  {
+    title: '经营负责人',
+    company: '(株)衣恋零售',
+    period: '2023-2024'
+  },
+  {
+    title: 'COO',
+    company: '百盛集团',
+    period: '2021-2022'
+  },
+  {
+    title: 'CEO',
+    company: '好孩子集团',
+    period: '2018-2020'
+  },
+  {
+    title: '事业本部长',
+    company: '衣恋 ELAND',
+    period: '1993-2017'
+  }
+],
     philosophyTitle: '我的理念',
     philosophy: "我相信成功的商业转型需要对传统商业基础和尖端数字技术的深刻理解。凭借在亚洲市场的丰富经验和领导主要零售组织的良好记录，我帮助公司弥合遗留系统和现代数字解决方案之间的差距，实现可持续增长和竞争优势。"
   },

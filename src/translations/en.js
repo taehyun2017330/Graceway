@@ -91,28 +91,34 @@ export default {
       'Executive Leadership'
     ],
     experienceTitle: 'Key Experience',
-    experience: [
-      {
-        title: 'Chief Executive Officer (CEO)',
-        company: 'E-Land Retail, Newcore Group',
-        period: '2023-2024'
-      },
-      {
-        title: 'Chief Operating Officer (COO)',
-        company: 'Parkson Group',
-        period: '2021-2022'
-      },
-      {
-        title: 'Chief Executive Officer (CEO)',
-        company: 'Goodbaby Group',
-        period: '2018-2020'
-      },
-      {
-        title: 'Business Division Head (사업본부장)',
-        company: 'E-Land',
-        period: '1993-2017'
-      }
-    ],
+    viewProjects: '→ View Projects',
+experience: [
+  {
+    title: 'Senior Advisor',
+    company: 'Silicon Valley Companies and Various Global Projects',
+    period: '2024-Present'
+  },
+  {
+    title: 'Chief Executive Officer (CEO)',
+    company: 'E-Land Retail, Newcore Group',
+    period: '2023-2024'
+  },
+  {
+    title: 'Chief Operating Officer (COO)',
+    company: 'Parkson Group',
+    period: '2021-2022'
+  },
+  {
+    title: 'Chief Executive Officer (CEO)',
+    company: 'Goodbaby Group',
+    period: '2018-2020'
+  },
+  {
+    title: 'Business Division Head (사업본부장)',
+    company: 'E-Land',
+    period: '1993-2017'
+  }
+],
     philosophyTitle: 'My Philosophy',
     philosophy: "I believe that successful business transformation comes from a deep understanding of both traditional business fundamentals and emerging digital technologies. With extensive leadership experience across the Asian market and a proven history of driving growth in major retail organizations, I help companies bridge the gap between legacy operations and modern digital solutions, delivering sustainable growth and long-term competitive advantage."
   },

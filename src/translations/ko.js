@@ -85,28 +85,34 @@ export default {
       '경영진 리더십'
     ],
     experienceTitle: '주요 경력',
-    experience: [
-      {
-        title: '경영 책임자',
-        company: '(주)이랜드 리테일',
-        period: '2023-2024'
-      },
-      {
-        title: 'COO',
-        company: '파크슨 그룹',
-        period: '2021-2022'
-      },
-      {
-        title: 'CEO',
-        company: '구드베이비 그룹',
-        period: '2018-2020'
-      },
-      {
-        title: '사업본부장',
-        company: '이랜드 ELAND',
-        period: '1993-2017'
-      }
-    ],
+    viewProjects: '→ 진행중인 프로젝트 보기',
+experience: [
+  {
+    title: 'Senior Advisor',
+    company: 'Silicon Valley 기업 및 다양한 프로젝트',
+    period: '2024-현재'
+  },
+  {
+    title: '경영 책임자',
+    company: '(주)이랜드 리테일',
+    period: '2023-2024'
+  },
+  {
+    title: 'COO',
+    company: 'Parkson 그룹',
+    period: '2021-2022'
+  },
+  {
+    title: 'CEO',
+    company: 'Goodbaby Internationals 그룹',
+    period: '2018-2020'
+  },
+  {
+    title: '사업본부장',
+    company: '이랜드 ELAND',
+    period: '1993-2017'
+  }
+],
     philosophyTitle: '저의 철학',
     philosophy: "저는 성공적인 비즈니스 전환이 전통적인 비즈니스 기초와 최첨단 디지털 기술에 대한 깊은 이해를 요구한다고 믿습니다. 아시아 시장에서의 광범위한 경험과 주요 리테일 조직을 이끌어온 입증된 실적을 바탕으로, 저는 기업들이 레거시 시스템과 현대적인 디지털 솔루션 사이의 격차를 해소하여 지속 가능한 성장과 경쟁 우위를 달성할 수 있도록 돕습니다."
   },
@@ -152,7 +158,7 @@ export default {
   // Contact Section
   contact: {
     title: '연락처',
-    subtitle: '아시아 시장 진출 및 리테일 성장을 위한 파트너를 찾고 계신가요? 지금 바로 연락해 주세요.',
+    subtitle: '중국 시장 진출 및 리테일 성장을 위한 파트너를 찾고 계신가요? 지금 바로 연락해 주세요.',
     email: '이메일',
     emailValue: 'ilcheul@gracewayconsulting.com',
     wechat: '위챗',
@@ -164,7 +170,7 @@ export default {
     locationSubValue: '아시아 및 글로벌 컨설팅 가능',
     consultingAreas: '컨설팅 전문 분야',
     consultingAreasList: [
-      '아시아 시장 진입 및 성장 전략',
+      '중국 시장 진입 및 성장 전략',
       '리테일 및 이커머스 전략',
       '옴니채널 리테일 개발',
       '비즈니스 운영 및 공급망 최적화',
