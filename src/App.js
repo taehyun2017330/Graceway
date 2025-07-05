@@ -9,7 +9,7 @@ import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
-import useScrollToTop from './hooks/useScrollToTop';
+// import useScrollToTop from './hooks/useScrollToTop';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {

@@ -37,7 +37,7 @@ const HeroSection = () => {
       <div className="hero-background">
         <img 
           ref={heroImageRef}
-          src="/background.jpg" 
+          src="background.jpg" 
           alt="Retail Business Transformation" 
           className="hero-image" 
         />

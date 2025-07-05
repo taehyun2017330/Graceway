@@ -16,7 +16,7 @@ const Navigation = ({ toggleMobileMenu }) => {
         
         <div className="nav-center">
           <Link to="/" className="brand">
-            <img src="/graceway-logo.png" alt="Graceway Logo" className="brand-logo" />
+            <img src="graceway-logo.png" alt="Graceway Logo" className="brand-logo" />
           </Link>
         </div>
         
