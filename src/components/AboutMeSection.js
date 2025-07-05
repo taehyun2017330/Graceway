@@ -39,7 +39,7 @@ const AboutMeSection = () => {
           <div className="about-image">
             <div className="founder-photo">
               <img
-                src="/ilcheul-caleb-yang.jpg"
+                src="ilcheul-caleb-yang.jpg"
                 alt={t('aboutMe.name')}
                 className="founder-photo-img"
                 onError={(e) => {
