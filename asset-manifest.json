@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Graceway/static/css/main.d4ef9ada.css",
-    "main.js": "/Graceway/static/js/main.81d16494.js",
+    "main.js": "/Graceway/static/js/main.42dcac1c.js",
     "static/js/453.aa92903a.chunk.js": "/Graceway/static/js/453.aa92903a.chunk.js",
     "index.html": "/Graceway/index.html",
     "main.d4ef9ada.css.map": "/Graceway/static/css/main.d4ef9ada.css.map",
-    "main.81d16494.js.map": "/Graceway/static/js/main.81d16494.js.map",
+    "main.42dcac1c.js.map": "/Graceway/static/js/main.42dcac1c.js.map",
     "453.aa92903a.chunk.js.map": "/Graceway/static/js/453.aa92903a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4ef9ada.css",
-    "static/js/main.81d16494.js"
+    "static/js/main.42dcac1c.js"
   ]
 }
