@@ -27,14 +27,12 @@ const ProjectsSection = () => {
                 <p className="project-description">{project.description}</p>
                 
                 <div className="project-metrics">
-                  <div className="metric">
-                    <span className="metric-label">Duration</span>
-                    <span className="metric-value">{project.duration}</span>
-                  </div>
-                  <div className="metric">
-                    <span className="metric-label">Impact</span>
-                    <span className="metric-value">{project.impact}</span>
-                  </div>
+                  {project.metrics && project.metrics.map((metric, idx) => (
+                    <div key={idx} className="metric">
+                      <span className="metric-label">{metric.label}</span>
+                      <span className="metric-value">{metric.value}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

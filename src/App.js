@@ -31,7 +31,7 @@ function App() {
   };
 
   return (
-    <Router basename={process.env.NODE_ENV === 'production' ? '/Graceway' : '/'}>
+    <Router basename="/">
       <GoogleAnalytics />
       <ScrollToTop />
       <div className="App">

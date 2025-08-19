@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -9,6 +9,11 @@ const LanguageSwitcher = () => {
     { code: 'ZH', name: 'Chinese', nativeName: '中文' },
     { code: 'KO', name: 'Korean', nativeName: '한글' }
   ];
+
+  // Update document lang attribute when language changes
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
 
   const handleLanguageChange = (languageCode) => {
     const langCode = languageCode.toLowerCase();

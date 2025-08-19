@@ -129,33 +129,62 @@ experience: [
     title: 'Featured Projects',
     subtitle: 'Transforming retail and business operations across Asia',
     projects: [
+      // Brand Design Category
       {
-        title: 'E-Land Retail Digital Transformation',
-        description: 'Led the digital transformation initiative for E-Land Retail, modernizing their e-commerce platform and implementing omnichannel retail strategies, resulting in 35% increase in online sales and improved customer experience across all channels.',
-        category: 'Retail Digitalization',
-        duration: '24 months',
-        impact: '35% sales increase'
+        title: 'Successfully Launched 30+ Brands & Achieved Industry Leadership',
+        description: 'Designed market entry strategies and executed on-ground management for E-Land Group and over 30 global brands entering Southeast Asian markets including China and Korea, achieving #1 position in Chinese fashion industry and global #1 children\'s sports franchise success.',
+        category: 'Brand Design',
+        metrics: [
+          { label: 'Revenue Growth', value: '2.5 Trillion KRW' },
+          { label: 'Brand Launches', value: '30+ Global Brands' }
+        ]
       },
       {
-        title: 'Parkson Group Market Expansion',
-        description: 'As COO, orchestrated the expansion of Parkson Group\'s retail operations across multiple Asian markets, implementing standardized business processes and digital systems that improved operational efficiency by 40%.',
-        category: 'Market Expansion',
-        duration: '18 months',
-        impact: '40% efficiency improvement'
+        title: 'Korean Athleisure Sports Brand Successfully Partners with China\'s #1 Sports Group',
+        description: 'Developed customized China market entry strategy for Korea\'s leading athleisure sports brand, established one-on-one connections with key decision makers in China\'s #1 sports group, achieved successful 2024 launch resulting in 200%+ stock price increase and Southeast Asian market expansion.',
+        category: 'Brand Design',
+        metrics: [
+          { label: 'Stock Price Increase', value: '200%+' },
+          { label: 'Project Duration', value: '18 Months Partnership Success' }
+        ]
+      },
+      // Retail Management Category
+      {
+        title: 'Retail Channel Strategy Development',
+        description: 'Through CEO positions at E-Land China with 7,600 stores and Hong Kong-listed GoodBaby Group with 2,500 stores, developed comprehensive retail channel strategies and networks across 100 key shopping malls and department stores in China, extending to Taiwan, Hong Kong, Malaysia, and Singapore.',
+        category: 'Retail Management',
+        metrics: [
+          { label: 'Store Operations', value: '7,600 Fashion + 2,500 Kids Stores' },
+          { label: 'Channel Network', value: '100 Key Retail Channels' }
+        ]
       },
       {
-        title: 'Goodbaby Group E-commerce Platform',
-        description: 'Developed and launched a comprehensive e-commerce platform for Goodbaby Group, integrating online and offline retail operations, achieving 50% growth in digital sales and 25% improvement in customer retention.',
-        category: 'E-commerce Strategy',
-        duration: '12 months',
-        impact: '50% digital growth'
+        title: 'Urban Outlet (Korea Newcore) Successful China Market Entry',
+        description: 'As the first Korean to lead China\'s urban flagship store, transformed Newcore Shanghai through innovative strategies aligned with evolving customer lifestyles, achieving 3x revenue growth, 8x increase in foot traffic, profitability turnaround, and nationwide expansion.',
+        category: 'Retail Management',
+        metrics: [
+          { label: 'Revenue Growth', value: '3x+' },
+          { label: 'Customer Traffic', value: '8x Increase' }
+        ]
       },
+      // Market Strategy Category
       {
-        title: 'Asian Market Entry Strategy',
-        description: 'Designed and executed market entry strategies for multiple retail brands entering Asian markets, including China and South Korea, resulting in successful launches with 60% faster time-to-market than industry average.',
+        title: 'Silicon Valley E-commerce Platform Integrated Solutions',
+        description: 'Leveraging Silicon Valley-based comprehensive e-commerce platform connections to provide integrated solutions including online/offline pop-up execution, marketing and advertising support. Supporting brands\' digital expansion with 30 million user base and 500 partner network.',
         category: 'Market Strategy',
-        duration: '15 months',
-        impact: '60% faster market entry'
+        metrics: [
+          { label: 'User Base', value: '30 Million Users' },
+          { label: 'Partners', value: '500 Partners' }
+        ]
+      },
+      {
+        title: 'Korean Brands China Market Entry Consulting',
+        description: 'Provide customized market entry strategies for various companies entering China and overseas markets, including trademark registration, local entity establishment and management, partner identification and contracting. From pre-launch pop-ups to long-term operational management, supporting successful market entry through phased strategic planning and execution.',
+        category: 'Market Strategy',
+        metrics: [
+          { label: 'Project Status', value: 'Ongoing' },
+          { label: 'Service Scope', value: 'Strategy to Execution' }
+        ]
       }
     ],
     ctaText: 'Interested in learning more about how we can help transform your retail or business operations?',

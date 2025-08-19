@@ -23,7 +23,7 @@ export default {
     opportunityContent: [
       {
         title: '缺乏本地网络',
-        description: '难以找到合适的关键人士、合作伙伴和客户。'
+        description: '难以对接关键人脉、合作伙伴及目标客户。'
       },
       {
         title: '市场复杂性',
@@ -35,7 +35,7 @@ export default {
       },
       {
         title: '执行缺口',
-        description: '即使产品优秀，如果没有本地联系，市场进入也可能失败。'
+        description: '即便产品具备竞争力，缺乏本地资源连接也可能导致市场进入失败。'
       }
     ],
 
@@ -73,9 +73,9 @@ export default {
   aboutMe: {
     title: '关于我',
     subtitle: 'Graceway咨询公司CEO兼联合创始人',
-    name: '杨一哲 凯莱布',
-    position: 'CEO兼联合创始人，Graceway咨询公司',
-    intro: "我拥有30多年亚洲市场的时尚品牌与零售增长战略领导经验。通过Graceway Consulting，我帮助全球品牌成功进入并拓展中国、韩国及更广泛的亚洲市场。凭借值得信赖的本地网络，提供切合市场、可落地的实用增长策略，助力品牌实现可持续发展。",
+    name: '梁逸喆 (Caleb Yang)',
+    position: 'Graceway 咨询公司联合创始人兼CEO',
+    intro: "深耕亚洲时尚零售领域30余年，通过Graceway Consulting，助力全球品牌成功进入中国、韩国及东南亚市场。依托 深厚本地资源网络，输出切合市场、可落地的实用增长策略，推动品牌实现 可持续发展。",
     expertiseTitle: '专业领域',
     expertiseList: [
       '零售与电商战略',
@@ -122,33 +122,62 @@ experience: [
     title: '精选项目',
     subtitle: '变革亚洲各地的零售和商业运营',
     projects: [
+      // Brand Design Category
       {
-        title: '衣恋零售数字化转型',
-        description: '领导衣恋零售的数字化转型计划，现代化其电商平台并实施全渠道零售战略，实现在线销售35%的增长和所有渠道客户体验的改善。',
-        category: '零售数字化',
-        duration: '24个月',
-        impact: '销售增长35%'
+        title: '成功推出30余个品牌并取得行业领先地位',
+        description: '为拓展亚洲市场(涵盖中国、韩国及东南亚地区)的衣恋集团及30余个全球品牌，定制市场进入策略并推动落地实施，取得了行业领先的业绩和成功的品牌推出。',
+        category: '品牌设计',
+        metrics: [
+          { label: '营收增长', value: '2.5万亿韩元' },
+          { label: '品牌推出', value: '30+全球品牌' }
+        ]
       },
       {
-        title: '百盛集团市场扩张',
-        description: '作为COO，协调百盛集团零售运营向多个亚洲市场的扩张，实施标准化业务流程和数字系统，提高运营效率40%。',
-        category: '市场扩张',
-        duration: '18个月',
-        impact: '效率提升40%'
+        title: '韩国休闲运动品牌成功与中国第一体育集团合作进入市场',
+        description: '为韩国领先休闲运动品牌制定定制化中国市场进入策略，与中国第一体育集团的关键决策者建立一对一联系，2024年成功推出，实现股价上涨超过200%并扩展至东南亚市场。',
+        category: '品牌设计',
+        metrics: [
+          { label: '股价上涨', value: '200%+' },
+          { label: '项目周期', value: '18个月成功合作' }
+        ]
+      },
+      // Retail Management Category
+      {
+        title: '零售渠道战略开发',
+        description: '通过在中国衣恋集团(7600家门店)及香港上市企业好孩子集团(2500家门店)担任CEO期间，在中国100余个核心购物中心与百货渠道，开发构建了全链路零售战略及体系，并拓展至中国台湾地区、中国香港地区、马来西亚及新加坡市场，实现万店高效运营。',
+        category: '零售管理',
+        metrics: [
+          { label: '门店运营', value: '7,600时尚店+2,500儿童店' },
+          { label: '渠道网络', value: '100个核心零售渠道' }
+        ]
       },
       {
-        title: '好孩子集团电商平台',
-        description: '为好孩子集团开发和推出综合电商平台，整合线上线下零售运营，实现数字销售50%增长和客户保留率25%改善。',
-        category: '电商战略',
-        duration: '12个月',
-        impact: '数字增长50%'
+        title: '城市奥特莱斯（韩国纽可儿）成功进入中国市场',
+        description: '作为首位操盘中国城市旗舰店的韩国籍管理者，主导上海优客城市奥莱战略升级改造，通过贴合客群生活方式变迁的创新策略，实现品牌收入增长3倍、客流量提升8倍，成功扭亏为盈并完成全国布局。',
+        category: '零售管理',
+        metrics: [
+          { label: '营收增长', value: '3倍+' },
+          { label: '客流量', value: '8倍增长' }
+        ]
       },
+      // Market Strategy Category
       {
-        title: '亚洲市场进入战略',
-        description: '为进入亚洲市场（包括中国和韩国）的多个零售品牌设计和执行市场进入战略，实现比行业平均水平快60%的成功上市。',
+        title: '硅谷电商平台集成解决方案',
+        description: '利用硅谷基础的综合电商平台连接，提供包括线上/线下快闪店执行、营销和广告支持的集成解决方案。通过3000万用户基础和500个合作伙伴网络支持品牌的数字化扩张。',
         category: '市场战略',
-        duration: '15个月',
-        impact: '市场进入快60%'
+        metrics: [
+          { label: '用户基数', value: '3000万用户' },
+          { label: '合作伙伴', value: '500个合作伙伴' }
+        ]
+      },
+      {
+        title: '韩国品牌中国市场进入定制咨询',
+        description: '为各类公司进入中国和海外市场提供定制化市场进入策略，包括商标注册、当地实体设立和管理、合作伙伴识别和签约。从预发布快闪店到长期运营管理，通过分阶段战略规划和执行支持成功的市场进入。',
+        category: '市场战略',
+        metrics: [
+          { label: '项目状态', value: '进行中' },
+          { label: '服务范围', value: '从战略到执行' }
+        ]
       }
     ],
     ctaText: '想了解更多关于我们如何帮助变革您的零售或商业运营的信息吗？',
@@ -158,7 +187,7 @@ experience: [
   // Contact Section
   contact: {
     title: '联系我们',
-    subtitle: '正在寻找亚洲市场拓展或零售增长的合作伙伴吗？欢迎与我们联系，共同探讨您的发展之路。',
+    subtitle: '正在寻找中国，韩国及东南亚市场拓展或零售增长的合作伙伴吗？欢迎与我们联系，共同探讨您的发展之路！',
     email: '邮箱',
     emailValue: 'ilcheul@gracewayconsulting.com',
     wechat: '微信',
